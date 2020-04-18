@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #364f6b;
+	font-family: poppins, quicksand, Do hyeon;
+}
+
+.container{
+	width: 95%;
+	margin: auto;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited{
+	color: inherit;
+}
+
+#header{
+	color: #f0f0f0;
+	background-color: #25A5AD;
+	width: 100%;
+	font-family: do hyeon;
+	text-align: center;
+}
+
+#header h1{
+	font-size: 48px;
+}
+
+nav{
+	background-color: #43dde6;
+	position: sticky;
+	position: -webkit-sticky;
+	width: 100%;
+	height: 50px;
+	top: 0px;
+}
+
+nav div i{
+	margin-top: 5px;
+	color: #364f6b;
+}
+
+nav ul li{
+	display: inline;
+	padding-right: 20px;
+	float: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#home{
+	border-radius: 26px;
+	padding: 5px;
+	background-color: #fc5185;
+	color: #f0f0f0;
+	transform-origin: center;
+}
+
+#home:hover{
+	-webkit-box-shadow: 3px 1px 16px 8px rgba(252,81,133,1);
+	-moz-box-shadow: 3px 1px 16px 8px rgba(252,81,133,1);
+	box-shadow: 3px 1px 16px 8px rgba(252,81,133,1);
+}
+
+#lsc, #abtme{
+	border-radius: 26px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fc5185;
+	color: #364f6b;
+}
+
+#lsc:hover , #abtme:hover{
+	border-radius: 26px;
+	padding: 5px;
+	background-color: #fc5185;
+	color: #f0f0f0;
+}
+
+.heading{
+	color: #fc5185;
+	font-size: 48px;
+	padding: 5px;
+	position: relative;
+	margin-left: 350px;
+}
+
+.flexcontainer{
+	left: 40%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	font-size: 16px;
+}
+
+.statusbox h3{
+	padding: 3px;
+	transform-origin: center;
+}
+
+.statusbox:hover{
+	transform: scale(1.02);
+}
+
+#totalcases{
+	background-color: #f0f0f0;
+	padding: 10px;
+	margin: 10px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: steelblue;
+	border-radius: 26px;
+	
+}
+
+#activecases{
+	background-color: #f0f0f0;
+	padding: 10px;
+	margin: 10px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: red;
+	border-radius: 26px
+}
+
+#recovered{
+	background-color: #f0f0f0;
+	padding: 10px;
+	margin: 10px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: green;
+	border-radius: 26px
+}
+
+#casualties{
+	background-color: #f0f0f0;
+	padding: 10px;
+	margin: 10px;
+	border-width: 3px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 26px
+}

@@ -1,0 +1,286 @@
+/*
+colors1 :- #000000, #3D2645, #832161, #DA4167, #F0EFF4;
+colors2 :- #fc5185, #364f6b, #43dde6, #f0f0f0;
+colors3 :- ;
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #f4f4f4;
+	font-family: poppins, quicksand, Do hyeon;
+}
+
+.container{
+	width: 95%;
+	margin: auto;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:visited{
+	color: inherit;
+}
+
+#header{
+	color: #f0f0f0;
+	background-color: #25A5AD;
+	width: 100%;
+	font-family: do hyeon;
+	text-align: center;
+}
+
+#header h1{
+	font-size: 48px;
+}
+
+nav{
+	background-color: #43dde6;
+	position: sticky;
+	position: -webkit-sticky;
+	width: 100%;
+	height: 50px;
+	top: 0px;
+}
+
+nav div i{
+	margin-top: 5px;
+	color: #364f6b;
+}
+
+nav ul li{
+	display: inline;
+	padding-right: 20px;
+	float: right;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#home{
+	border-radius: 26px;
+	padding: 5px;
+	background-color: #fc5185;
+	color: #f0f0f0;
+	transform-origin: center;
+}
+
+#home:hover{
+	-webkit-box-shadow: 3px 1px 16px 8px rgba(252,81,133,1);
+	-moz-box-shadow: 3px 1px 16px 8px rgba(252,81,133,1);
+	box-shadow: 3px 1px 16px 8px rgba(252,81,133,1);
+}
+
+#lsc, #abtme{
+	border-radius: 26px;
+	padding: 5px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fc5185;
+	color: #364f6b;
+}
+
+#lsc:hover , #abtme:hover{
+	border-radius: 26px;
+	padding: 5px;
+	background-color: #fc5185;
+	color: #f0f0f0;
+}
+
+.banner{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.banner h1{
+	color: #364f6b;
+	font-size: 56px;
+	margin: auto;
+	opacity: 1;
+	animation: beat 1.25s infinite alternate;
+	-webkit-animation: beat 1.25s infinite alternate;
+	-moz-animation: beat 1.25s infinite alternate;
+	-ms-animation: beat 1.25s infinite alternate;
+	-o-animation: beat 1.25s infinite alternate;
+	transform-origin: center;
+	align-self: flex-end;
+}
+
+@keyframes beat{
+	10%{
+		color: red;
+		
+	}
+
+	50%{
+		color: green;
+		
+	}
+}
+
+.upcoming_sections{
+	color: #364f6b;
+	background-color: #fc5185;
+	font-size: 20px;
+	line-height: 1.6em;
+	padding: 10px;
+	padding-top: 16px;
+	height: 100vh;
+}
+
+#upcomingli{
+	margin: 15px;
+	margin-bottom: 0px;
+	border: 2px solid #f0f0f0;
+	border-radius: 26px;
+	padding-right: 20px;
+}
+
+#upcomingli:hover{
+	background-color: #f0f0f0;
+	color: 
+}
+
+#upcomingi{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.undraw1{
+	position: relative;
+	left: 32%;
+	height: 400px;
+	width: 400px;
+	transition: 0.5s;
+	
+	transform-origin: center;
+}
+
+.undraw1:hover{
+	transform: scale(1.1);
+}
+
+#main{
+	background-color: #364f6b;
+	width: 100%;
+	margin: auto;
+	font-family: quicksand;
+}
+
+.main_container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	margin: auto;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+
+.sections{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	line-height: 1.6em;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 26px;
+	background-color: #F0F0F0;
+	column-gap: 10px;
+	align-content: center;
+	flex-wrap: nowrap;
+}
+
+.sections:hover{
+	box-shadow: -webkit-box-shadow: 20px 23px 26px 2px rgba(105,155,210,1);
+-moz-box-shadow: 20px 23px 26px 2px rgba(105,155,210,1);
+box-shadow: 20px 23px 26px 2px rgba(105,155,210,1);
+transform: scale(1.01);
+transform-origin: center;
+}
+
+#CoronaViruses h3{
+	margin-right: 10px;
+	align-self: center;
+}
+
+#coronavirusesp{
+	align-self: center;
+}
+
+#coronaviruses1{
+	width: 250px;
+	height: 200px;
+	padding: 5px;
+	border-radius: 26px;
+}
+
+#current_state h3{
+	margin-right: 10px;
+	align-self: center;
+}
+
+#currentstatep{
+	align-self: center;
+}
+
+#currentstate1{
+	width: 300px;
+	height: 300px;
+	border-radius: 26px;
+	padding: 5px;
+}
+
+#how_to_stay_safe h3{
+	margin-right: 10px;
+	align-self: center;
+}
+
+#howtostaysafep{
+	align-self: center;
+}
+
+.howtostaysafeimgflex{
+	display: flex;
+	flex-direction: column;
+}
+
+.howtostaysafeimg{
+	width: 300px;
+	height: 200px;
+	border-radius: 26px;
+	padding: 5px;	
+}
+
+#myth_busters h3{
+	margin-right: 10px;
+	align-self: center;
+}
+
+#faq h3{
+	margin-right: 10px;
+	align-self: center;
+}
+
+#external_sources{
+	background-color: #25A5AD;
+}
+
+#footer{
+	background-color: #43dde6;
+}
+
